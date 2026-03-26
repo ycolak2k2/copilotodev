@@ -1,0 +1,25 @@
+# CENG302 Uygulama Çalışması – Github Copilot
+
+REPO ADRESİ
+https://github.com/ycolak2k2/copilotodev
+
+ÇALIŞMA ÖZETİ
+
+- **spaghetti_logic.py**: Kod iyileştirildi, modüler fonksiyonlara ayrıldı, type hints ve logging eklendi. Kod daha okunabilir ve test edilebilir hale getirildi.
+- **failing_calculator.py**: Hatalı çalıştırma durumları düzeltildi. [10,5,0] örneği üzerinde test edildi ve division by zero sorunu çözüldü.
+- **secret_leak.py**: Hardcoded AWS key kaldırıldı. .env dosyası ve .gitignore ile güvenli hale getirildi. Logging güvenli şekilde yapılandırıldı.
+- **mystery_module.py**: README.md oluşturularak fonksiyon ve kullanım detayları dokümante edildi.
+
+DEĞERLENDİRME
+
+A. Öğrendiklerim:
+- Github Copilot agent ve chat kullanımı
+- Python’da clean code ve modüler tasarım
+- Logging ve güvenli credential yönetimi
+- README / dokümantasyon oluşturma
+
+B. Havada Kalanlar:
+- MCP Agent bazen kilitleniyor, bazı işlemler manuel yapılmak zorunda kaldı
+
+C. Diğer Söylemek İstediklerim:
+- Bu ödev Copilot kullanımını ve güvenli kod yazmayı anlamak için çok faydalı oldu
